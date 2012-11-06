@@ -25,7 +25,7 @@ class Experiment
        System.out.println(" Case 1");
        for(i=0 ; i < NUMRUNS ; i++)
        {
-          mname = new ModelName(startTime,endTime,0,sds[i]);
+          mname = new ModelName(startTime,endTime,sds[i]);
           mname.runSimulation();
           // Generate output
        }

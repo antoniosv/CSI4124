@@ -1,16 +1,18 @@
 
 public class Seeds 
 {
-	int seed1;   // sandwich customer arrivals
-	int seed2;   // sushi customer arrivals
-	int seed3;   // sandwich service times
-	int seed4;   // sushi service times
+	int arrSd;
 
-	public Seeds(int [] sdarray)
+	int warr;
+	int uarr;
+	int wstm;
+	int ustm;
+
+	public Seeds(int sd1,int sd2,int sd3,int sd4)
 	{
-	    warr=sd[0];
-	    uarr=sd[1];
-	    wstm=sd[2];
-	    ustm=sd[3];
+	    warr=sd1;
+	    uarr=sd2;
+	    wstm=sd3;
+	    ustm=sd3;
 	}
 }
