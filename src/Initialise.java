@@ -6,10 +6,10 @@ import ABSmodJ.ScheduledAction;
 
 public class Initialise extends ScheduledAction
 {
-	ModelName model;
+	TVAssemblyExp model;
 	
 	// Constructor
-	public Initialise(ModelName model) { this.model = model; }
+	public Initialise(TVAssemblyExp model) { this.model = model; }
 
 	double [] ts = { 0.0, -1.0 }; // -1.0 ends scheduling
 	int tsix = 0;  // set index to first entry.

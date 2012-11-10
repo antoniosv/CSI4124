@@ -4,7 +4,7 @@ import cern.jet.random.engine.MersenneTwister;
 
 public class RVP 
 {
-	ModelName model; // for accessing the clock
+	TVAssemblyExp model; // for accessing the clock
         // Data Models - i.e. random veriate generators for distributions
 	// are created using Colt classes, define 
 	// reference variables here and create the objects in the
@@ -14,7 +14,7 @@ public class RVP
 	protected Exponential interArrDist;  // Exponential distribution for interarrival times
 
 	// Constructor
-	public RVP(ModelName model, Seeds sd) 
+	public RVP(TVAssemblyExp model, Seeds sd) 
 	{ 
 		this.model = model; 
 		// Set up distribution functions

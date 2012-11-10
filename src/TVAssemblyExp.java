@@ -9,7 +9,7 @@ import cern.jet.random.engine.*;
 import cern.jet.random.*;
 //
 // The Simulation model Class
-class ModelName extends AOSimulationModel
+class TVAssemblyExp extends AOSimulationModel
 {
 	// Constants available from Const class
 	/* Parameter */
@@ -26,7 +26,6 @@ class ModelName extends AOSimulationModel
 	
 	// References to RVP and DVP objects
 	RVP rvp;  // Reference to rvp object - object created in constructor
-	DVP dvp = new DVP(this);  // Reference to dvp object
 
 	// Output object
 	Output output = new Output();
@@ -34,7 +33,7 @@ class ModelName extends AOSimulationModel
 	// Methods Model Behaviour
 
 	// Constructor - Also Initialises the model
-	public ModelName(double t0time, double tftime, /*define other args,*/ Seeds sd)
+	public TVAssemblyExp(double t0time, double tftime, /*define other args,*/ Seeds sd)
 	{
 		// Initialise parameters here
 		
