@@ -5,6 +5,6 @@ public class Pallet
 	public TVTypes type;
 	public boolean moving;
 	public boolean serviced;
-	// public Conveyor conveyor;
+	public Conveyor conveyor;
 	public int position;
 }
